@@ -1,3 +1,4 @@
+## English
 The target of the game is moved Your pawns to Yours opponent start fields. The game begins person  which play white pawns.
 
 During the turn, You can do one of two types of moves:
@@ -9,6 +10,7 @@ After the end of the round, the second player can do movement. If the player mov
 The winner is the player who haven't points. The game can end in a draw.
 
 
+## Polski
 Celem gry jest przesunięcie swoich pionków na pola startowe przeciwnika. Grę rozpoczyna osoba grająca białymi pionkami.
 
 Podczas tury można wykonać jeden z dwóch typów ruchów:
