@@ -46,84 +46,84 @@ namespace knight {
 	public: static int									 initial_field_movement;
 	public: static int									 moving_back_from_the_field;
 	public: static bool									 game_started;
-	private: System::Windows::Forms::MenuStrip^			 menu; 
+	private: System::Windows::Forms::MenuStrip^			 menu;
 	private: System::Windows::Forms::ToolStripMenuItem^  gameToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  newGameToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  koniecGryToolStripMenuItem;
 	private: System::Windows::Forms::TableLayoutPanel^   tableLayoutPanel1;
 	private: System::Windows::Forms::TableLayoutPanel^   tableLayoutPanel2;
-	public: static  System::Windows::Forms::Label^		 message_box;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox64;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox63;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox62;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox61;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox60;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox59;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox58;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox57;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox56;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox55;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox54;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox53;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox52;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox51;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox50;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox49;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox48;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox47;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox46;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox45;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox44;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox43;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox42;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox41;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox40;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox39;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox38;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox37;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox36;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox35;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox34;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox33;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox32;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox31;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox30;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox29;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox28;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox27;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox26;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox25;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox24;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox23;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox22;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox21;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox20;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox19;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox18;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox17;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox16;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox15;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox14;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox13;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox12;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox11;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox10;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox9;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox8;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox7;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox6;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox5;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox4;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox3;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox2;
-	public: static  System::Windows::Forms::PictureBox^  pictureBox1;
-	public: static  System::Windows::Forms::Label^		 player_1_score;
-	public: static  System::Windows::Forms::Label^		 player_2_score;
-	public: static  System::Windows::Forms::Button^		 end_of_movement;
-	public: static  System::Windows::Forms::Label^		 which_player_field;
-	public: static  System::Windows::Forms::Label^		 field_with_the_computer_movement;
-	public: static  System::Windows::Forms::Label^		 label2;
-	public: static  System::Windows::Forms::Label^		 label1;
+	public: static System::Windows::Forms::Label^		 message_box;
+	public: static System::Windows::Forms::PictureBox^   pictureBox64;
+	public: static System::Windows::Forms::PictureBox^   pictureBox63;
+	public: static System::Windows::Forms::PictureBox^   pictureBox62;
+	public: static System::Windows::Forms::PictureBox^   pictureBox61;
+	public: static System::Windows::Forms::PictureBox^   pictureBox60;
+	public: static System::Windows::Forms::PictureBox^   pictureBox59;
+	public: static System::Windows::Forms::PictureBox^   pictureBox58;
+	public: static System::Windows::Forms::PictureBox^   pictureBox57;
+	public: static System::Windows::Forms::PictureBox^   pictureBox56;
+	public: static System::Windows::Forms::PictureBox^   pictureBox55;
+	public: static System::Windows::Forms::PictureBox^   pictureBox54;
+	public: static System::Windows::Forms::PictureBox^   pictureBox53;
+	public: static System::Windows::Forms::PictureBox^   pictureBox52;
+	public: static System::Windows::Forms::PictureBox^   pictureBox51;
+	public: static System::Windows::Forms::PictureBox^   pictureBox50;
+	public: static System::Windows::Forms::PictureBox^   pictureBox49;
+	public: static System::Windows::Forms::PictureBox^   pictureBox48;
+	public: static System::Windows::Forms::PictureBox^   pictureBox47;
+	public: static System::Windows::Forms::PictureBox^   pictureBox46;
+	public: static System::Windows::Forms::PictureBox^   pictureBox45;
+	public: static System::Windows::Forms::PictureBox^   pictureBox44;
+	public: static System::Windows::Forms::PictureBox^   pictureBox43;
+	public: static System::Windows::Forms::PictureBox^   pictureBox42;
+	public: static System::Windows::Forms::PictureBox^   pictureBox41;
+	public: static System::Windows::Forms::PictureBox^   pictureBox40;
+	public: static System::Windows::Forms::PictureBox^   pictureBox39;
+	public: static System::Windows::Forms::PictureBox^   pictureBox38;
+	public: static System::Windows::Forms::PictureBox^   pictureBox37;
+	public: static System::Windows::Forms::PictureBox^   pictureBox36;
+	public: static System::Windows::Forms::PictureBox^   pictureBox35;
+	public: static System::Windows::Forms::PictureBox^   pictureBox34;
+	public: static System::Windows::Forms::PictureBox^   pictureBox33;
+	public: static System::Windows::Forms::PictureBox^   pictureBox32;
+	public: static System::Windows::Forms::PictureBox^   pictureBox31;
+	public: static System::Windows::Forms::PictureBox^   pictureBox30;
+	public: static System::Windows::Forms::PictureBox^   pictureBox29;
+	public: static System::Windows::Forms::PictureBox^   pictureBox28;
+	public: static System::Windows::Forms::PictureBox^   pictureBox27;
+	public: static System::Windows::Forms::PictureBox^   pictureBox26;
+	public: static System::Windows::Forms::PictureBox^   pictureBox25;
+	public: static System::Windows::Forms::PictureBox^   pictureBox24;
+	public: static System::Windows::Forms::PictureBox^   pictureBox23;
+	public: static System::Windows::Forms::PictureBox^   pictureBox22;
+	public: static System::Windows::Forms::PictureBox^   pictureBox21;
+	public: static System::Windows::Forms::PictureBox^   pictureBox20;
+	public: static System::Windows::Forms::PictureBox^   pictureBox19;
+	public: static System::Windows::Forms::PictureBox^   pictureBox18;
+	public: static System::Windows::Forms::PictureBox^   pictureBox17;
+	public: static System::Windows::Forms::PictureBox^   pictureBox16;
+	public: static System::Windows::Forms::PictureBox^   pictureBox15;
+	public: static System::Windows::Forms::PictureBox^   pictureBox14;
+	public: static System::Windows::Forms::PictureBox^   pictureBox13;
+	public: static System::Windows::Forms::PictureBox^   pictureBox12;
+	public: static System::Windows::Forms::PictureBox^   pictureBox11;
+	public: static System::Windows::Forms::PictureBox^   pictureBox10;
+	public: static System::Windows::Forms::PictureBox^   pictureBox9;
+	public: static System::Windows::Forms::PictureBox^   pictureBox8;
+	public: static System::Windows::Forms::PictureBox^   pictureBox7;
+	public: static System::Windows::Forms::PictureBox^   pictureBox6;
+	public: static System::Windows::Forms::PictureBox^   pictureBox5;
+	public: static System::Windows::Forms::PictureBox^   pictureBox4;
+	public: static System::Windows::Forms::PictureBox^   pictureBox3;
+	public: static System::Windows::Forms::PictureBox^   pictureBox2;
+	public: static System::Windows::Forms::PictureBox^   pictureBox1;
+	public: static System::Windows::Forms::Label^		 player_1_score;
+	public: static System::Windows::Forms::Label^		 player_2_score;
+	public: static System::Windows::Forms::Button^		 end_of_movement;
+	public: static System::Windows::Forms::Label^		 which_player_field;
+	public: static System::Windows::Forms::Label^		 field_with_the_computer_movement;
+	public: static System::Windows::Forms::Label^		 label2;
+	public: static System::Windows::Forms::Label^		 label1;
 	private: System::Windows::Forms::ToolStripMenuItem^  gameWithHumanToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  gameWithComputerToolStripMenuItem;
 	private: System::Windows::Forms::Label^				 label3;
@@ -235,11 +235,11 @@ namespace knight {
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->tableLayoutPanel2 = (gcnew System::Windows::Forms::TableLayoutPanel());
 			this->player_2_score = (gcnew System::Windows::Forms::Label());
+			this->player_1_score = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->player_1_score = (gcnew System::Windows::Forms::Label());
 			this->message_box = (gcnew System::Windows::Forms::Label());
-			this->end_of_movement  = (gcnew System::Windows::Forms::Button());
+			this->end_of_movement = (gcnew System::Windows::Forms::Button());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label5 = (gcnew System::Windows::Forms::Label());
@@ -330,12 +330,12 @@ namespace knight {
 			// menu
 			// 
 			this->menu->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->gameToolStripMenuItem, this->gameRulesToolStripMenuItem,
-					this->authorToolStripMenuItem
+				this->gameToolStripMenuItem,
+					this->gameRulesToolStripMenuItem, this->authorToolStripMenuItem
 			});
 			this->menu->Location = System::Drawing::Point(0, 0);
 			this->menu->Name = L"menu";
-			this->menu->Size = System::Drawing::Size(560, 24);
+			this->menu->Size = System::Drawing::Size(642, 24);
 			this->menu->TabIndex = 0;
 			this->menu->Text = L"menuStrip1";
 			// 
@@ -363,14 +363,14 @@ namespace knight {
 			// gameWithHumanToolStripMenuItem
 			// 
 			this->gameWithHumanToolStripMenuItem->Name = L"gameWithHumanToolStripMenuItem";
-			this->gameWithHumanToolStripMenuItem->Size = System::Drawing::Size(214, 22);
+			this->gameWithHumanToolStripMenuItem->Size = System::Drawing::Size(194, 22);
 			this->gameWithHumanToolStripMenuItem->Text = L"Playing with human";
 			this->gameWithHumanToolStripMenuItem->Click += gcnew System::EventHandler(this, &chessboard::gameWithHumanToolStripMenuItem_Click);
 			// 
 			// gameWithComputerToolStripMenuItem
 			// 
 			this->gameWithComputerToolStripMenuItem->Name = L"gameWithComputerToolStripMenuItem";
-			this->gameWithComputerToolStripMenuItem->Size = System::Drawing::Size(214, 22);
+			this->gameWithComputerToolStripMenuItem->Size = System::Drawing::Size(194, 22);
 			this->gameWithComputerToolStripMenuItem->Text = L"Playing with computer";
 			this->gameWithComputerToolStripMenuItem->Click += gcnew System::EventHandler(this, &chessboard::gameWithComputerToolStripMenuItem_Click);
 			// 
@@ -1141,10 +1141,10 @@ namespace knight {
 			this->tableLayoutPanel2->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				50)));
 			this->tableLayoutPanel2->Controls->Add(this->player_2_score, 0, 1);
-			this->tableLayoutPanel2->Controls->Add(this->label1, 1, 0);
 			this->tableLayoutPanel2->Controls->Add(this->player_1_score, 0, 1);
 			this->tableLayoutPanel2->Controls->Add(this->label2, 0, 0);
-			this->tableLayoutPanel2->Location = System::Drawing::Point(337, 258);
+			this->tableLayoutPanel2->Controls->Add(this->label1, 1, 0);
+			this->tableLayoutPanel2->Location = System::Drawing::Point(388, 258);
 			this->tableLayoutPanel2->Name = L"tableLayoutPanel2";
 			this->tableLayoutPanel2->RowCount = 2;
 			this->tableLayoutPanel2->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
@@ -1165,6 +1165,20 @@ namespace knight {
 			this->player_2_score->TabIndex = 3;
 			this->player_2_score->Text = L"0";
 			this->player_2_score->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// player_1_score
+			// 
+			this->player_1_score->AutoSize = true;
+			this->player_1_score->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->player_1_score->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->player_1_score->Location = System::Drawing::Point(103, 34);
+			this->player_1_score->Name = L"player_1_score";
+			this->player_1_score->Size = System::Drawing::Size(94, 34);
+			this->player_1_score->TabIndex = 2;
+			this->player_1_score->Text = L"0";
+			this->player_1_score->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->player_1_score->Click += gcnew System::EventHandler(this, &chessboard::label3_Click);
 			// 
 			// label2
 			// 
@@ -1192,25 +1206,11 @@ namespace knight {
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			this->label1->Click += gcnew System::EventHandler(this, &chessboard::label1_Click_1);
 			// 
-			// player_1_score
-			// 
-			this->player_1_score->AutoSize = true;
-			this->player_1_score->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->player_1_score->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(238)));
-			this->player_1_score->Location = System::Drawing::Point(103, 34);
-			this->player_1_score->Name = L"player_1_score";
-			this->player_1_score->Size = System::Drawing::Size(94, 34);
-			this->player_1_score->TabIndex = 2;
-			this->player_1_score->Text = L"0";
-			this->player_1_score->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			this->player_1_score->Click += gcnew System::EventHandler(this, &chessboard::label3_Click);
-			// 
 			// message_box
 			// 
 			this->message_box->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->message_box->Location = System::Drawing::Point(303, 59);
+			this->message_box->Location = System::Drawing::Point(359, 54);
 			this->message_box->Name = L"message_box";
 			this->message_box->Size = System::Drawing::Size(257, 30);
 			this->message_box->TabIndex = 3;
@@ -1218,19 +1218,19 @@ namespace knight {
 			this->message_box->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			this->message_box->Click += gcnew System::EventHandler(this, &chessboard::label1_Click);
 			// 
-			// end_of_movement 
+			// end_of_movement
 			// 
-			this->end_of_movement ->Enabled = false;
-			this->end_of_movement ->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->end_of_movement->Enabled = false;
+			this->end_of_movement->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->end_of_movement ->Location = System::Drawing::Point(325, 208);
-			this->end_of_movement ->Name = L"end_of_movement ";
-			this->end_of_movement ->Size = System::Drawing::Size(223, 44);
-			this->end_of_movement ->TabIndex = 4;
-			this->end_of_movement ->Text = L"End of movement";
-			this->end_of_movement ->UseVisualStyleBackColor = true;
-			this->end_of_movement ->Visible = false;
-			this->end_of_movement ->Click += gcnew System::EventHandler(this, &chessboard::end_of_movement_Click);
+			this->end_of_movement->Location = System::Drawing::Point(377, 208);
+			this->end_of_movement->Name = L"end_of_movement";
+			this->end_of_movement->Size = System::Drawing::Size(223, 44);
+			this->end_of_movement->TabIndex = 4;
+			this->end_of_movement->Text = L"End of movement";
+			this->end_of_movement->UseVisualStyleBackColor = true;
+			this->end_of_movement->Visible = false;
+			this->end_of_movement->Click += gcnew System::EventHandler(this, &chessboard::end_of_movement_Click);
 			// 
 			// label3
 			// 
@@ -1412,7 +1412,7 @@ namespace knight {
 			// 
 			this->which_player_field->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->which_player_field->Location = System::Drawing::Point(303, 24);
+			this->which_player_field->Location = System::Drawing::Point(359, 24);
 			this->which_player_field->Name = L"which_player_field";
 			this->which_player_field->Size = System::Drawing::Size(257, 30);
 			this->which_player_field->TabIndex = 22;
@@ -1426,7 +1426,7 @@ namespace knight {
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
 			this->field_with_the_computer_movement->Location = System::Drawing::Point(303, 99);
 			this->field_with_the_computer_movement->Name = L"field_with_the_computer_movement";
-			this->field_with_the_computer_movement->Size = System::Drawing::Size(257, 106);
+			this->field_with_the_computer_movement->Size = System::Drawing::Size(339, 106);
 			this->field_with_the_computer_movement->TabIndex = 23;
 			this->field_with_the_computer_movement->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
@@ -1434,7 +1434,7 @@ namespace knight {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(560, 346);
+			this->ClientSize = System::Drawing::Size(642, 346);
 			this->Controls->Add(this->field_with_the_computer_movement);
 			this->Controls->Add(this->which_player_field);
 			this->Controls->Add(this->label18);
@@ -1453,7 +1453,7 @@ namespace knight {
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
-			this->Controls->Add(this->end_of_movement );
+			this->Controls->Add(this->end_of_movement);
 			this->Controls->Add(this->message_box);
 			this->Controls->Add(this->menu);
 			this->Controls->Add(this->tableLayoutPanel1);
