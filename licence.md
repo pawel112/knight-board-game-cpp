@@ -1,3 +1,4 @@
+## English
 License:
 
 Creator / authors allow anyone to download, view, modify any file, and the publication of the files in this project. 
@@ -5,6 +6,7 @@ The use of any file or fragment thereof in other projects, publicly sharing file
 activities without the permit of pawel112 is prohibited. 
 
 
+## Polski
 Licencja:
 
 Twórca / twórcy zezwalają każdemu na ściąganie, przeglądanie, modyfikację któregokolwiek plików oraz na publikację plików w tym
