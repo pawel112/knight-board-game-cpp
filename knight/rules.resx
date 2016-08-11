@@ -117,6 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>The target of the game is moved Your pawns to Yours opponent start fields. The game begins person  which play white pawns.
+
+During the turn, You can do one of two types of moves:
+- movement pawn to free field diagonally, which automatically end of the round
+- movement can do more then one, by jumping over the same pawn on  diagonally through any color pawn.
+
+After the end of the round, the second player can do movement. If the player moved pawns on the starting fields opponent, the player don't do movement, and the second player have a point.
+
+The winner is the player who haven't points. The game can end in a draw.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
